@@ -5,7 +5,7 @@ $maintencanceLink = "/maintenance.aspx"
 $activeLink = "/active.aspx"
 
 #Connect to Central Admin
-$taxonomySite = get-SPSite http://char/
+$taxonomySite = get-SPSite http://site/
 
 #Connect to Term Store in the Managed Metadata Service Application
 $taxonomySession = Get-SPTaxonomySession -site $taxonomySite
